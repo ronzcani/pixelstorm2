@@ -97,3 +97,44 @@ a:hover, a:hover h3, a:hover h2{
 		-webkit-transition: opacity .5s ease-in-out;	
 }
 
+
+
+/*Responsive Codes*/
+
+@media screen and(max-width:980px){
+	.site-heading {
+    left: 0;
+    right: 0;
+    top: 34%;
+    text-align: center;
+}
+.site-heading hr {
+    margin-right: auto;
+    margin-left: auto;
+}
+}
+
+
+@media screen and(max-width:550px){
+.site-heading h1 {
+    font-size: 50px;
+}
+.site-heading span.subheading {
+    font-size: 25px;
+}
+.post-preview h2 {
+    font-size: 25px;
+}
+.post-preview h3 {
+    font-size: 20px;
+}
+p.copyright.text-muted {
+    float: none;
+    text-align: center;
+}
+ul.social0-icons {
+    float: none;
+    text-align: center;
+    padding-left: 0;
+}
+}
