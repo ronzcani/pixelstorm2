@@ -1,0 +1,99 @@
+/*CSS Codes*/
+
+
+/* Heading Fonts */
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Roboto', sans-serif;
+}
+
+/*Header Codes*/
+header.intro-header {
+    min-height: 400px;
+}
+ul.social0-icons li {
+    display: inline-block;
+}
+inspector-stylesheet:1
+ul.social0-icons {
+    list-style: none;
+    padding-left: 0;
+}
+.navbar-brand {
+    height: auto;
+    padding: 5px;
+}
+.navbar-brand img{
+	max-height:40px
+}
+.navbar-fixed-top {
+    position: relative;
+    margin-bottom: 0;
+}
+.navbar-fixed-top.is-fixed {
+    position: fixed;
+}
+
+header.intro-header {
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    height: 100vh;
+}
+
+.site-heading .subheading {
+    color: #fff;
+}
+.site-heading h1 {
+    font-size: 72px;
+    color: #fff;
+}
+.site-heading {
+    position: absolute;
+    bottom: 128px;
+    right: 230px;
+}
+.site-heading hr {
+    border-top: 6px solid #fff;
+    max-width: 340px;
+    margin-left: 0;
+}
+.site-heading span.subheading {
+    font-size: 36px;
+}
+body {
+    background: #f2f2f2;
+}
+.post-preview {
+    padding: 10px 20px;
+    background: #fff;
+}
+footer {
+    background: #fff;
+    padding: 10px;
+}
+
+p.copyright.text-muted {
+    float: right;
+    padding: 10px 0;
+}
+ul.social0-icons {
+    float: left;
+}
+
+
+
+/* a tag Hover effect */
+a{
+	opacity:1;
+	transition: opacity .5s ease-in-out;
+		-moz-transition: opacity .5s ease-in-out;
+		-webkit-transition: opacity .5s ease-in-out;	
+}
+a:hover, a:hover h3, a:hover h2{
+	opacity:.7;
+	color: #93C43E;
+	transition: opacity .5s ease-in-out;
+		-moz-transition: opacity .5s ease-in-out;
+		-webkit-transition: opacity .5s ease-in-out;	
+}
+
